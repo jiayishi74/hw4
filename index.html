@@ -1,0 +1,59 @@
+<p>dyndoc index.do saving (index.html) replace</p>
+<p><strong>Background:</strong> A <u>user</u> downloads and installs a <u>system</u> of program files, mostly ado-files, which form the foundation of most of the commands used in Stata Programming. Using those commands and additional syntax written out sequentially in a do-file, the user creates well-formed instruction to Stata called a do-file script. Once the user runs this script, results are generated and displayed in the results window, in a graph, or in a format (<code>.xlsx</code>, <code>.log</code>, <code>.dta</code>, <code>.docx</code>, <code>.md</code>, <code>LaTeX</code>, <code>.html</code>, etc). The <code>.html</code> file format is of specific interest since its the pathway to self-publication. To illustrate how this may be achieved in Stata, we hereby introduce the <code>dyndoc</code> command.</p>
+<p><strong>Methods:</strong> We created a <a href="https://raw.githubusercontent.com/jhustata/livre/main/filename.do">do-file</a> and populated it with this abstract using <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a> language. Anything in this document that is not ordinary text including <code>&lt;&lt;dd_version: 2&gt;&gt;</code>, <code>&lt;&lt;dd_do:nooutput&gt;&gt;</code>, <code>&lt;&lt;/dd_do&gt;&gt;</code>, <code>&lt;&lt;dd_display: c(N)&gt;&gt;</code> is a <a href="https://en.wikipedia.org/wiki/Markup_language#:~:text=A%20markup%20language%20is%20a,content%20to%20facilitate%20automated%20processing.">markup</a>. Input &amp; output that might be numeric, string, alphanumeric, or formatted as macros are embeded at these markedup points. We then saved this document using the file extension .do; however, any text file extension will work (.txt, .md, .do, etc). To the <code>pwd</code> where we saved this text file, we added a cascading style sheet <a href="https://raw.githubusercontent.com/jhustata/livre/main/stmarkdown.css">stmarkdown.css</a> and <a href="https://raw.githubusercontent.com/jhustata/livre/main/header.txt">header.txt</a> to enhance the aesthetic of our .html file. Finally, we typed the following command into the Stata command window:   <code>dyndoc index.do, saving(index.html) replace</code>.</p>
+<pre><code>. clear all
+
+. **1. Data simulation: Initialize a dataset with 30 observations**
+. set seed 20240425
+
+. set obs 30
+
+. 
+. **2. Variable generation: Create an age variable with a mean of 57 years a
+&gt; nd a standard deviation of 15**
+. capture drop age age_t
+
+. gen age=(rnormal()*15)+57 //normal distribution
+
+. gen age_t=(rt(_N)*15)+57 //t_distribution
+
+. 
+. **3. Graphical Representation: Plot a histogram of the age variables, and 
+&gt; overlay it with a theoretical normal distribution curve**
+. hist age, ///
+&gt;    fcolor(orange%40) /// simulated normal 
+&gt;    addplot(hist age_t, fcolor(midblue%50)) /// simulated t-distribution 
+&gt;    normal /// theoretical normal
+&gt;    legend(on ///
+&gt;       lab(1 &quot;Sampled from Normal&quot;) ///
+&gt;           lab(2 &quot;Theoretical Normal&quot;) ///
+&gt;           lab(3 &quot;Sampled from t-distribution&quot;) ///
+&gt;           )
+
+. graph export hw4_age.png, replace
+
+</code></pre>
+<p><strong>Figure 1: Histogram of age distribution</strong></p>
+<p><img src="Graph.svg" ></p>
+<p><strong>Footnote</strong> Distribution of $\text{Age, years} \sim \mathcal{N}(\mu=57,,\sigma^{2}=225)$</p>
+<pre><code>. display c(N) 
+30
+
+. display c(k)  
+2
+
+. list in 1/5 
+
+     +---------------------+
+     |      age      age_t |
+     |---------------------|
+  1. | 52.40395   55.15607 |
+  2. | 49.36994   79.45469 |
+  3. |  48.2841   71.07404 |
+  4. | 46.39054   70.99165 |
+  5. | 102.6172   56.76484 |
+     +---------------------+
+
+</code></pre>
+<p><strong>Results</strong> We identified the newly created .html file in our directory and opened it to compare its format to this markdown file. And we saw all that we had made, and behold, it was very good. Ghastly macros in the original markdown language were now rendered as neatly formatted results. There were  30 observations and 2 variables in the simulated dataset. The histogram of age ($\text{Age, years} \sim \mathcal{N}(\mu=57,,\sigma^{2}=225)$) demonstrated the distribution of age in two hypothetical populations under normal distribution and t-distribution, respectively.</p>
+<p><strong>Conclusions</strong> In walking you through syntax, do-file creation, queued commands, generated results, through to embedding neatly formatted output in .html, we believe you now have a sense of what that Stata might offer you. These ideas can be generalized to embedding results in .xlsx, .log, .dta, .docx, etc.</p>

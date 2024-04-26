@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This is a Stata 16.0 generated SVG file (http://www.stata.com) -->
+
+<svg version="1.1" width="5.50in" height="4.00in" viewBox="0 0 3960 2880" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>Stata Graph - Graph</desc>
+	<rect x="0" y="0" width="3960" height="2880" style="fill:#EAF2F3;stroke:none"/>
+	<rect x="0.00" y="0.00" width="3959.88" height="2880.00" style="fill:#EAF2F3"/>
+	<rect x="2.88" y="2.88" width="3954.12" height="2874.24" style="fill:none;stroke:#EAF2F3;stroke-width:5.76"/>
+	<rect x="390.80" y="100.86" width="3468.22" height="1852.84" style="fill:#FFFFFF"/>
+	<rect x="393.68" y="103.74" width="3462.46" height="1847.08" style="fill:none;stroke:#FFFFFF;stroke-width:5.76"/>
+	<line x1="390.80" y1="1953.70" x2="3859.02" y2="1953.70" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="1393.59" x2="3859.02" y2="1393.59" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="833.36" x2="3859.02" y2="833.36" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="273.25" x2="3859.02" y2="273.25" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<rect x="807.96" y="1574.52" width="597.47" height="379.18" style="fill:#FF7F00;fill-opacity:0.40"/>
+	<rect x="812.28" y="1578.84" width="588.83" height="370.54" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<rect x="1405.43" y="437.10" width="597.59" height="1516.60" style="fill:#FF7F00;fill-opacity:0.40"/>
+	<rect x="1409.75" y="441.42" width="588.95" height="1507.96" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<rect x="2003.02" y="437.10" width="597.59" height="1516.60" style="fill:#FF7F00;fill-opacity:0.40"/>
+	<rect x="2007.34" y="441.42" width="588.95" height="1507.96" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<rect x="2600.61" y="1701.00" width="597.59" height="252.71" style="fill:#FF7F00;fill-opacity:0.40"/>
+	<rect x="2604.93" y="1705.32" width="588.95" height="244.07" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<rect x="3198.20" y="1827.35" width="597.46" height="126.35" style="fill:#FF7F00;fill-opacity:0.40"/>
+	<rect x="3202.51" y="1831.67" width="588.83" height="117.71" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<path d=" M807.84 1758.67 L817.86 1751.98 L827.89 1745.05 L837.79 1738.00 L847.81 1730.82 L857.84 1723.40 L867.86 1715.85 L877.76 1708.17 L887.78 1700.25 L897.81 1692.09 L907.83 1683.80 L917.73 1675.38 L927.75 1666.72 L937.78 1657.81 L947.80 1648.77 L957.70 1639.61 L967.73 1630.09 L977.75 1620.56 L987.77 1610.78 L997.67 1600.76 L1007.70 1590.61 L1017.72 1580.21 L1027.74 1569.69 L1037.64 1558.93 L1047.67 1548.04 L1057.69 1536.90 L1067.71 1525.64 L1077.62 1514.13 L1087.64 1502.50 L1097.66 1490.74 L1107.69 1478.73 L1117.59 1466.48 L1127.61 1454.11 L1137.63 1441.61 L1147.66 1428.99 L1157.56 1416.12 L1167.58 1403.00 L1177.61 1389.88 L1187.63 1376.51 L1197.53 1363.03 L1207.55 1349.41 L1217.58 1335.68 L1227.60 1321.82 L1237.50 1307.71 L1247.52 1293.60 L1257.55 1279.24 L1267.57 1264.89 L1277.47 1250.41 L1287.49 1235.81 L1297.52 1221.08 L1307.54 1206.23 L1317.44 1191.38 L1327.47 1176.40 L1337.49 1161.31 L1347.51 1146.21 L1357.41 1131.11 L1367.44 1115.89 L1377.46 1100.54 L1387.48 1085.32 L1397.38 1069.98 L1407.41 1054.63 L1417.43 1039.28 L1427.46 1023.94 L1437.36 1008.59 L1447.38 993.25 L1457.40 978.03 L1467.30 962.68 L1477.33 947.46 L1487.35 932.24 L1497.38 917.14 L1507.28 902.17 L1517.30 887.19 L1527.32 872.34 L1537.35 857.49 L1547.25 842.89 L1557.27 828.28 L1567.29 813.93 L1577.32 799.57 L1587.22 785.47 L1597.24 771.48 L1607.27 757.74 L1617.29 744.01 L1627.19 730.64 L1637.21 717.40 L1647.24 704.28 L1657.26 691.54 L1667.16 678.91 L1677.18 666.54 L1687.21 654.41 L1697.23 642.53 L1707.13 630.90 L1717.15 619.64 L1727.18 608.62 L1737.20 597.85 L1747.10 587.34 L1757.13 577.19 L1767.15 567.29 L1777.17 557.76 L1787.07 548.60 L1797.10 539.69 L1807.12 531.15 L1817.14 522.98 L1827.05 515.19 L1837.07 507.64 L1847.09 500.58 L1857.12 493.90 L1867.02 487.59 L1877.04 481.53 L1887.06 475.96 L1897.09 470.88 L1906.99 466.06 L1917.01 461.73 L1927.04 457.77 L1937.06 454.18 L1946.96 450.96 L1956.98 448.24 L1967.01 446.01 L1977.03 444.03 L1986.93 442.54 L1996.95 441.55 L2006.98 440.94 L2017.00 440.69 L2026.90 440.94 L2036.92 441.55 L2046.95 442.67 L2056.97 444.15 L2066.87 446.01 L2076.90 448.36 L2086.92 451.08 L2096.94 454.18 L2106.84 457.77 L2116.87 461.73 L2126.89 466.18 L2136.91 470.88 L2146.82 476.08 L2156.84 481.65 L2166.86 487.59 L2176.89 494.03 L2186.79 500.71 L2196.81 507.76 L2206.83 515.31 L2216.86 523.11 L2226.76 531.28 L2236.78 539.81 L2246.80 548.72 L2256.83 557.88 L2266.73 567.54 L2276.75 577.31 L2286.78 587.46 L2296.80 597.98 L2306.70 608.75 L2316.72 619.76 L2326.75 631.14 L2336.77 642.78 L2346.67 654.66 L2356.70 666.79 L2366.72 679.16 L2376.74 691.78 L2386.64 704.53 L2396.67 717.65 L2406.69 730.89 L2416.71 744.26 L2426.61 757.99 L2436.64 771.73 L2446.66 785.71 L2456.68 799.82 L2466.59 814.18 L2476.61 828.53 L2486.63 843.14 L2496.66 857.74 L2506.56 872.59 L2516.58 887.44 L2526.60 902.41 L2536.63 917.39 L2546.53 932.61 L2556.55 947.71 L2566.57 962.93 L2576.60 978.27 L2586.50 993.50 L2596.52 1008.84 L2606.55 1024.19 L2616.57 1039.53 L2626.47 1054.88 L2636.49 1070.22 L2646.52 1085.57 L2656.54 1100.91 L2666.44 1116.14 L2676.47 1131.36 L2686.49 1146.46 L2696.51 1161.55 L2706.41 1176.65 L2716.44 1191.63 L2726.46 1206.48 L2736.48 1221.33 L2746.38 1236.05 L2756.41 1250.66 L2766.43 1265.14 L2776.45 1279.49 L2786.36 1293.85 L2796.38 1307.95 L2806.40 1322.06 L2816.43 1335.92 L2826.33 1349.66 L2836.35 1363.27 L2846.37 1376.76 L2856.40 1390.13 L2866.30 1403.25 L2876.32 1416.36 L2886.34 1429.11 L2896.37 1441.86 L2906.27 1454.36 L2916.29 1466.73 L2926.32 1478.86 L2936.34 1490.86 L2946.24 1502.74 L2956.26 1514.38 L2966.29 1525.89 L2976.31 1537.15 L2986.21 1548.28 L2996.24 1559.17 L3006.26 1569.94 L3016.28 1580.46 L3026.18 1590.73 L3036.21 1601.00 L3046.23 1610.90 L3056.25 1620.68 L3066.15 1630.33 L3076.18 1639.74 L3086.20 1648.90 L3096.22 1657.93 L3106.12 1666.84 L3116.15 1675.50 L3126.17 1683.92 L3136.20 1692.21 L3146.10 1700.38 L3156.12 1708.30 L3166.14 1715.97 L3176.17 1723.52 L3186.07 1730.95 L3196.09 1738.12 L3206.11 1745.18 L3216.14 1752.11 L3226.04 1758.79 L3236.06 1765.23 L3246.09 1771.66 L3256.11 1777.85 L3266.01 1783.79 L3276.03 1789.73 L3286.06 1795.42 L3296.08 1800.99 L3305.98 1806.31 L3316.01 1811.63 L3326.03 1816.71 L3336.05 1821.66 L3345.95 1826.48 L3355.98 1831.06 L3366.00 1835.64 L3376.02 1840.10 L3385.92 1844.30 L3395.95 1848.39 L3405.97 1852.47 L3415.99 1856.31 L3425.89 1860.02 L3435.92 1863.73 L3445.94 1867.20 L3455.97 1870.66 L3465.87 1873.88 L3475.89 1877.10 L3485.91 1880.19 L3495.94 1883.16 L3505.84 1886.01 L3515.86 1888.86 L3525.89 1891.45 L3535.91 1894.05 L3545.81 1896.53 L3555.83 1899.00 L3565.86 1901.35 L3575.88 1903.58 L3585.78 1905.69 L3595.80 1907.79 L3605.83 1909.77 L3615.85 1911.63 L3625.75 1913.48 L3635.78 1915.34 L3645.80 1917.07 L3655.82 1918.68 L3665.72 1920.29 L3675.75 1921.77 L3685.77 1923.26 L3695.79 1924.62 L3705.69 1925.98 L3715.72 1927.22 L3725.74 1928.46 L3735.76 1929.69 L3745.66 1930.81 L3755.69 1931.92 L3765.71 1932.91 L3775.61 1933.90 L3785.64 1934.89 L3795.66 1935.76" stroke-linejoin="round" style="fill:none;stroke:#2D6D66;stroke-width:8.64"/>
+	<rect x="1216.71" y="880.01" width="421.99" height="1073.69" style="fill:#0080FF;fill-opacity:0.50"/>
+	<rect x="1221.03" y="884.33" width="413.35" height="1065.05" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<rect x="1638.70" y="164.22" width="421.99" height="1789.48" style="fill:#0080FF;fill-opacity:0.50"/>
+	<rect x="1643.02" y="168.54" width="413.35" height="1780.84" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<rect x="2060.68" y="701.07" width="421.99" height="1252.64" style="fill:#0080FF;fill-opacity:0.50"/>
+	<rect x="2065.00" y="705.39" width="413.35" height="1244.00" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<rect x="2482.67" y="1237.91" width="421.99" height="715.79" style="fill:#0080FF;fill-opacity:0.50"/>
+	<rect x="2486.99" y="1242.23" width="413.35" height="707.15" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<rect x="2904.66" y="1416.86" width="421.99" height="536.84" style="fill:#0080FF;fill-opacity:0.50"/>
+	<rect x="2908.98" y="1421.18" width="413.35" height="528.20" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<line x1="390.80" y1="1953.70" x2="390.80" y2="100.86" style="stroke:#000000;stroke-width:5.76"/>
+	<line x1="390.80" y1="1953.70" x2="350.83" y2="1953.70" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="1953.70" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,1953.70)" text-anchor="middle">0</text>
+	<line x1="390.80" y1="1393.59" x2="350.83" y2="1393.59" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="1393.59" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,1393.59)" text-anchor="middle">.01</text>
+	<line x1="390.80" y1="833.36" x2="350.83" y2="833.36" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="833.36" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,833.36)" text-anchor="middle">.02</text>
+	<line x1="390.80" y1="273.25" x2="350.83" y2="273.25" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="273.25" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,273.25)" text-anchor="middle">.03</text>
+	<text x="190.71" y="1027.28" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 190.71,1027.28)" text-anchor="middle">Density</text>
+	<line x1="390.80" y1="1953.70" x2="3859.02" y2="1953.70" style="stroke:#000000;stroke-width:5.76"/>
+	<line x1="454.16" y1="1953.70" x2="454.16" y2="1993.67" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="454.16" y="2083.66" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">20</text>
+	<line x1="1263.12" y1="1953.70" x2="1263.12" y2="1993.67" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="1263.12" y="2083.66" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">40</text>
+	<line x1="2071.95" y1="1953.70" x2="2071.95" y2="1993.67" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="2071.95" y="2083.66" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">60</text>
+	<line x1="2880.90" y1="1953.70" x2="2880.90" y2="1993.67" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="2880.90" y="2083.66" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">80</text>
+	<line x1="3689.85" y1="1953.70" x2="3689.85" y2="1993.67" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="3689.85" y="2083.66" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">100</text>
+	<text x="2124.91" y="2193.67" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">age</text>
+	<rect x="1237.25" y="2278.31" width="1775.32" height="466.30" style="fill:#FFFFFF"/>
+	<rect x="1240.13" y="2281.19" width="1769.56" height="460.54" style="fill:none;stroke:#000000;stroke-width:5.76"/>
+	<rect x="1280.44" y="2321.50" width="374.34" height="99.99" style="fill:#FF7F00;fill-opacity:0.40"/>
+	<rect x="1284.76" y="2325.82" width="365.70" height="91.35" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<line x1="1280.44" y1="2511.46" x2="1654.79" y2="2511.46" style="stroke:#2D6D66;stroke-width:8.64"/>
+	<rect x="1280.44" y="2601.43" width="374.34" height="99.99" style="fill:#0080FF;fill-opacity:0.50"/>
+	<rect x="1284.76" y="2605.75" width="365.70" height="91.35" style="fill:none;stroke:#D7D29E;stroke-width:8.64"/>
+	<text x="1714.80" y="2406.52" style="font-family:'Helvetica';font-size:99.99px;fill:#000000">Sampled from Normal</text>
+	<text x="1714.80" y="2546.49" style="font-family:'Helvetica';font-size:99.99px;fill:#000000">Theoretical Normal</text>
+	<text x="1714.80" y="2686.46" style="font-family:'Helvetica';font-size:99.99px;fill:#000000">Sampled from t-distribution</text>
+</svg>
